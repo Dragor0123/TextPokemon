@@ -6,7 +6,7 @@ namespace poke_template
 {
 	template<typename T>
 	using fptr_SelMenu = void(T::*)(char*, int, int, POS&);
-
+	//
 	template <typename T>
 	int Up_Down_Select_Interface(fptr_SelMenu<T> _fpRenderMenu,
 		char* _szMenu, int _rowSize, int _colSize, POS& _selPos)
